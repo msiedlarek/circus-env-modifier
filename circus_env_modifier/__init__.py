@@ -21,9 +21,9 @@ def before_spawn(watcher, arbiter, hook_name, **kwargs):
     if process.returncode != 0:
         logger.error("Environment modification command failed: %s" % stderr)
         return False
-    for line in stdout.split('\n'):
+    for line in stdout.splitlines():
         try:
-            name, value = line.split('=')
+            name, value = line.split('=', 1)
         except ValueError:
             continue
         watcher.env[name] = value
