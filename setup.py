@@ -19,10 +19,11 @@ setup(
     ),
     long_description=readme,
     classifiers=[
+        'Environment :: Plugins',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
-        'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
         'Operating System :: OS Independent',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: Apache Software License',
