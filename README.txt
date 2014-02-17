@@ -23,12 +23,13 @@ circus.ini:
     env_modification_command = . /opt/variables.sh
 
     [env:myprocess]
-    NAME=foo
+    APP_PATH=/opt/application
 
 /opt/variables.sh:
 
-    export DATABASE_USER=$NAME_11
+    export DATABASE_USER=foo
     export DATABASE_PASSWORD=bar
+    export DATA_PATH=$APP_PATH/data
 
 License
 -------
