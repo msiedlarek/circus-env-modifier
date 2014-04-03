@@ -1,0 +1,12 @@
+Changelog
+=========
+
+0.1.1
+-----
+
+- Fixed bug with variables containing '=' character in value. (#1)
+
+0.1.0
+-----
+
+- Initial release.

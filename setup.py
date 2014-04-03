@@ -12,7 +12,7 @@ with codecs.open(readme_path, 'r', encoding='utf-8') as file:
 
 setup(
     name='circus-env-modifier',
-    version='0.1.0',
+    version='0.1.1',
     description=(
         "Mozilla Circus hook for modifying environment with an external"
         " command."
